@@ -120,12 +120,82 @@ main{
 
     display: flex;
     flex-direction: column;
+    
+
 
     /* Regole Debug */
-    width: 850px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: black;
 }
 
+.part1 {
+    width: 400px;
+}
 
+.part2 {
+    width: 400px;
+}
+
+.part3 {
+    width: 400px;
+}
+.part4 {
+    width: 400px;
+}
+
+
+
+footer{
+    min-height: 400px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    /* Regole Debug*/
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+/* prima sezione footer */
+.footer-section{
+    width: 80%;
+    /* height: 100px; */
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#first-div{
+    width: 40%;
+    height: 250px;
+}
+
+.second-div{
+    width: 20%;
+    height: 250px;
+}
+
+
+/* seconda sezione footer */
+.footer-section2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    padding-top: 10px
+}
+
+.footer-section2 div{
+    /* regole debug */
+    width: 30%;
+}
+
+ /* regole debug */
+ section div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+}
 
